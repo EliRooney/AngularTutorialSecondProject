@@ -1,0 +1,23 @@
+h1
+{
+	color: red;
+}
+
+h3
+{
+	text-align: center;
+}
+
+.phone
+{
+	color: purple;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.numbers
+{
+	color: purple;
+	text-align: center;
+	text-decoration: unset;
+}
