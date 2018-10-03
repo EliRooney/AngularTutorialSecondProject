@@ -1,10 +1,10 @@
 <div>
-	<h1>Foo Bar</h1>
-	<h3>Software Developer</h3>
-	<p>1234 Main St, City, State, 10010</p>
+	<h1>{{user.name}}</h1>
+	<h3>{{user.title}}</h3>
+	<p>{{user.address}}</p>
 	<div>
 		<p>Phone:</p>
-		<p>123-123-1234</p>
-		<p>456-456-4567</p>
+		<p>{{user.phone[0]}}/p>
+		<p>{{user.phone[1]}}</p>
 	</div>
 </div>
